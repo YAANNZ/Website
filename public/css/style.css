@@ -9,11 +9,17 @@
 }
 
 .navBar {
-	padding: 0 0 0 0;
-	text-align: left; 
+	padding: 0 40px;
+    height: 32px;
+    max-width: 1140px;
+    margin: 0 auto;
+    line-height: 32px
+    color: white;
 }
 
 .loginArea {
-	padding: 0 0 0 0;
-	text-align: right;
+	width: 35%;
+	float: right;
+	height: 32px;
+	position: relative;
 }
