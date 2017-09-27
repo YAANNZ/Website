@@ -14,7 +14,14 @@
     max-width: 1140px;
     margin: 0 auto;
     line-height: 32px
-    color: white;
+}
+
+.navBar a {
+	color: #ccc
+}
+
+.navBar a:hover {
+	color: #fff
 }
 
 .loginArea {
@@ -23,3 +30,19 @@
 	height: 32px;
 	position: relative;
 }
+
+.loginArea a {
+	height: 32px;
+	text-align: right;
+	margin-left: 9px;
+	margin-right: 0;
+	color: #ccc;
+}
+
+.loginArea a:hover {
+	color: #fff
+}
+
+
+
+
