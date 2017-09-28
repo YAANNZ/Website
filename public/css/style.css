@@ -1,23 +1,21 @@
 .navBarWrap {
 	background-color: #333;
 	width: 100%;
-	position: fixed;
-	top: 0;
-    left: 0;
-    z-index: 100;
     -webkit-transform: translate3d(0, 0, 0);
+    float: left;
 }
 
 .navBar {
-	padding: 0 40px;
     height: 32px;
-    max-width: 1140px;
-    margin: 0 auto;
-    line-height: 32px
+    width: 50%;
+    line-height: 32px;
+    float: left;
 }
 
 .navBar a {
-	color: #ccc
+	color: #ccc;
+	position: relative;
+	left: 90px;
 }
 
 .navBar a:hover {
@@ -25,18 +23,18 @@
 }
 
 .loginArea {
-	width: 35%;
-	float: right;
+	width: 46%;
 	height: 32px;
-	position: relative;
+	right: 90px;
+	float: left;
+	line-height: 32px;
 }
 
 .loginArea a {
-	height: 32px;
-	text-align: right;
-	margin-left: 9px;
-	margin-right: 0;
+	float: right;
+	margin-right: 30px;
 	color: #ccc;
+	left: 90px;
 }
 
 .loginArea a:hover {
