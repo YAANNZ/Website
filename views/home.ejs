@@ -1,57 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  	<meta charset="utf-8">
-  	<title>My Website</title>
-  	<link rel="stylesheet" href="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
-	<header id="header">
-		<div class="navBarWrap">
-			<div class="navBar">
-				<a href="/">白兰鸽 - 飞过似水华丽的人间</a>
-			</div>
-			<div class="loginArea">
-				<a class="message" href="">留言</a><a href="">首页</a>
-			</div>
-		</div>
-		<div class="headerWrap">
-			<div class="logo-search">
-				<div class="logo">
-					<a href="/">
-						<img src="/img/logo.png" alt="learn website" width="260" height="55">
-					</a>
-				</div>
-				<form class="form_search" action="">
-					<input type="search" name="key" id="search" class="text_search" value style="color: rgb(153,153,153);" placeholder="swift 枚举 （多关键字搜索更精确）" onclick="this.placeholder='">
-					<button type="submit" class="btn_search">
-						<img src="/img/searchIcon.png" width="16" height="16">
-					</button>
-				</form>
-			</div>
-		</div>
-	</header>
-	<section class="wrap"></section>
-	<footer id="footer">
-		<div class="footer">
-			<div class="footerTop">
-				<a href="">移动版</a>
-				<a href="">给我留言</a>
-				<a href="">联系我们</a>
-				<a class="sitemap">打赏支持</a>
-				<a href="">现在有 10000 位访客在线</a>
-			</div>
-			<div class="footerLink">
-				<div class="linkTitle">
-					友情链接
-					<span>
-						<a href="">（申请）</a>
-					</span>
-				</div>
-			</div>
-			<div class="info">© copyright 2006-2017 白兰鸽. All rights reserved. 京ICP备66666888号</div>
-		</div>
-	</footer>
-  </body>
-</html>
+<%- include('head') %>
+<%- include('header') %>
+<section class="wrap"> this is real body</section>
+<%- include('footer') %>
+	
+	
+	
