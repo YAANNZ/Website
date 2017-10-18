@@ -11,7 +11,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 routes(app);
 
-// app.listen(3000);
 app.listen(config.port);
 
 
