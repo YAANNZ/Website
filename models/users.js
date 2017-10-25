@@ -5,4 +5,4 @@ module.exports = {
 	create: function create(user) {
 		return User.create(user).exec();
 	}
-};
+}; 
