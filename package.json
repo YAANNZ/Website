@@ -20,7 +20,7 @@
     "config-lite": "^2.1.0",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
-    "mongodb": "^2.2.31",
+    "mongodb": "^3.6.1",
     "mongolass": "^3.1.5"
   }
 }
